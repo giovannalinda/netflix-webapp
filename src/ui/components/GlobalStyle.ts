@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: ${theme.colors.white};
+    background: ${theme.colors.black};
     font-family: ${theme.font.family};
     overflow-x: hidden;
     color: ${theme.colors.black};
