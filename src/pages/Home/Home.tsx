@@ -4,9 +4,6 @@ export function Home() {
   return (
     <>
       <Header />
-      <>
-        <h1>Welcome</h1>
-      </>
     </>
   )
 }

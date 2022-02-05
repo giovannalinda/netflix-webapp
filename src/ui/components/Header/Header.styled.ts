@@ -41,11 +41,34 @@ export const Header = styled.header`
 `
 
 export const ContentHeader = styled.div`
-  margin-top: -550px;
+  margin: -640px 0 0 50px;
 
   img {
     width: 900px;
-    height: 400px;
+    height: 350px;
+  }
+
+  p {
+    font-size: 16px;
+    color: ${theme.colors.white};
+    max-width: 850px;
+    padding: 30px 0 0 0;
+  }
+
+  button {
+    width: 300px;
+    height: 60px;
+    background: ${theme.colors.red[700]};
+    border-radius: 5px;
+    border: 0;
+    color: ${theme.colors.white};
+    transition: 1s;
+    margin-top: 30px;
+
+    :hover {
+      width: 320px;
+      height: 70px;
+    }
   }
 
 `
