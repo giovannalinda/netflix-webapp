@@ -42,3 +42,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `build`: creates the production build version
 - `lint`: runs the linter in all components and pages
 - `test`: runs jest to test all components and pages
+
+Made with 💜 by Giovanna
