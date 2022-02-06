@@ -10,7 +10,7 @@ export const ContainerRecommendation = styled.div`
 `
 
 export const ContentRecommendation = styled.div`
-  margin: -640px 0 0 50px;
+  margin: -720px 0 0 50px;
 
   img {
     width: 900px;

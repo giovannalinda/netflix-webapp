@@ -18,25 +18,18 @@ export function Home() {
       .then((response) => {
         const previewMovies = response.data.slice(0, 30)
         setMovies(previewMovies)
-
-        console.log('preview ' + previewMovies)
       })
       .catch((err) => {
         console.error('deu erro ' + err)
       })
   }, [])
 
-  console.log('api: ' + api)
-
-  console.log('movies: ' + movies)
-
   return (
     <>
       <Header />
       <Recommendation />
       <S.ContentMain>
-        <h1>Populares na Netflix</h1>
-        <h1>Em alta</h1>
+        <h1>Popular on Netflix</h1>
         <ul>
         {movies.map((movie) => (
           <li key={movie.id}>

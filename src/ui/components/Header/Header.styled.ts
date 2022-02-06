@@ -10,6 +10,7 @@ export const Header = styled.header`
     background: ${theme.colors.black};
     height: 100px;
     z-index: 1;
+    box-shadow: 0 0.1px 0.5px ${theme.colors.neutral[300]};
 
     ul {
       text-align: center;
