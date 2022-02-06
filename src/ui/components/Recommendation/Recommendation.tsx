@@ -1,14 +1,11 @@
-import { banner, logo } from 'assets'
+import { logo } from 'assets'
 import * as S from './Recommendation.styled'
 
 export function Recommendation() {
   return (
-    <>
-      <S.ContainerRecommendation>
-        <img src={banner} alt="banner spiderman" />
-      </S.ContainerRecommendation>
-      <S.ContentRecommendation>
-        <img src={logo} alt="logo spiderman" />
+    <S.Wrapper>
+      <S.Container>
+        <img src={logo} alt="Logo Spiderman" />
         <p>
           After fighting alongside the Avengers, the time has come
           of young Peter Parker returning home to New York alongside
@@ -19,7 +16,7 @@ export function Recommendation() {
           the city. The problem is that the task will not be as easy as he imagined.
         </p>
         <button type="button">Watch</button>
-      </S.ContentRecommendation>
-    </>
+      </S.Container>
+    </S.Wrapper>
   )
 }

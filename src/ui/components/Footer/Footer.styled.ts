@@ -1,5 +1,15 @@
 import { theme } from 'config'
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
+
+const goBack = keyframes`
+  from {
+    transform: translateY(20px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+`
 
 export const Footer = styled.footer`
   display: flex;
@@ -10,19 +20,10 @@ export const Footer = styled.footer`
   p {
     font-size: 17px;
     color: ${theme.colors.white};
-    animation: go-back 1s infinite alternate;
+    animation: ${goBack} 1s infinite alternate;
 
     a {
       color: ${theme.colors.red[700]};
     }
-
-    @keyframes go-back {
-    from {
-      transform: translateY(20px);
-    }
-    to {
-      transform: translateX(0);
-    }
-  }
   }
 `

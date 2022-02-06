@@ -28,16 +28,18 @@ export function Home() {
     <>
       <Header />
       <Recommendation />
-      <S.ContentMain>
+      <S.Container>
         <h1>Popular on Netflix</h1>
-        <ul>
-        {movies.map((movie) => (
-          <li key={movie.id}>
-            <img src={movie.thumbnail} alt={movie.title} />
-          </li>
-        ))}
-        </ul>
-      </S.ContentMain>
+        <S.MoviesList>
+          {movies.map((movie) => (
+            <li key={movie.id}>
+              <button>
+                <img src={movie.thumbnail} alt={movie.title} />
+              </button>
+            </li>
+          ))}
+        </S.MoviesList>
+      </S.Container>
       <Footer />
     </>
   )
