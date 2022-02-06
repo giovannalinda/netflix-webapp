@@ -10,15 +10,15 @@ export function Recommendation() {
       <S.ContentRecommendation>
         <img src={logo} alt="logo spiderman" />
         <p>
-          Depois de lutar ao lado dos Vingadores, chegou a hora
-          do jovem Peter Parker voltar para casa em Nova York ao lado
-          de sua tia May. Sob o olhar atento do mentor Tony Stark, Peter
-          começa a abraçar sua nova identidade como Homem-Aranha e combate
-          diariamente pequenos crimes nas redondezas. Ele acredita que encontrou
-          a missão de sua vida quando o terrível vilão Abutre surge ameaçando
-          a cidade. O problema é que a tarefa não será tão fácil como ele imaginava.
+          After fighting alongside the Avengers, the time has come
+          of young Peter Parker returning home to New York alongside
+          from his Aunt May. Under the watchful eye of mentor Tony Stark, Peter
+          begins to embrace his new identity as Spider-Man and fights
+          daily petty crimes in the surroundings. He believes he found
+          his life mission when the terrifying villain Vulture appears threatening
+          the city. The problem is that the task will not be as easy as he imagined.
         </p>
-        <button type="button">Assistir</button>
+        <button type="button">Watch</button>
       </S.ContentRecommendation>
     </>
   )

@@ -1,0 +1,24 @@
+{
+  "movies": [
+    { "id": 0, "title": "You", "thumbnail": "https://i0.wp.com/www.ofilmante.com.br/wp-content/uploads/2019/01/you-poster.jpg?fit=1200%2C675&ssl=1"},
+    { "id": 1, "title": "Black Mirror", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/blackmirror.png?raw=true"},
+    { "id": 2, "title": "Sex Education", "thumbnail": "https://www.mercadoerotico.org/wp-content/uploads/2019/01/maxresdefault.jpg"},
+    { "id": 3, "title": "Lúcifer", "thumbnail": "https://superherobrasil.com.br/wp-content/uploads/2020/07/Lucifer-Season-5-1-1.jpg"},
+    { "id": 4, "title": "La casa de papel", "thumbnail": "https://nerdbreak.com.br/wp-content/uploads/2020/04/la-casa-de-papel-4-001.jpg"},
+    { "id": 5, "title": "Jumanji", "thumbnail": "https://occ-0-1722-1723.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABX5jDAo2Vwa_-gA2HzNrPhTuy0qZYpQTEGh3M7gCjEHmVHNOi-rW4z-Ne_UzrsWpwk0TPwRqjOuuVpiPxaKmNyE17VVu.jpg?r=901"},
+    { "id": 6, "title": "Gente grande", "thumbnail": "https://occ-0-1722-1723.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZJ4tOXRrIoJ7YXlTmRIpEscDYwy14tpraKpK-OtXB-Ek9ODiOUIT9pCyCSTkVXpMYnt44hdaipdBkYYXf7K9KRwz_Om.jpg?r=d65"},
+    { "id": 7, "title": "Como se fosse a primeira vez", "thumbnail": "https://i.pinimg.com/originals/50/c9/3a/50c93a7a134e4e31a8751fa58400b2bd.jpg"},
+    { "id": 8, "title": "Alice em borderland", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/aliceinborderland.jpg?raw=true"},
+    { "id": 9, "title": "As branquelas", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/asbranquelas.jpg?raw=true"},
+    { "id": 10, "title": "Your name", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/yourname.jpg?raw=true"},
+    { "id": 11, "title": "Tenku Shinpan", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/tenkushinpan.jpg?raw=true"},
+    { "id": 12, "title": "Pokémon", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/pokemon.jpg?raw=true"},
+    { "id": 13, "title": "Pixels", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/pixels.jpg?raw=true"},
+    { "id": 14, "title": "Lupin", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/lupin.jpg?raw=true"},
+    { "id": 15, "title": "Coraline", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/coraline.jpg?raw=true"},
+    { "id": 16, "title": "It: a coisa", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/itacoisa.jpg?raw=true"},
+    { "id": 17, "title": "Velozes e furiosos", "thumbnail": "https://wp.ufpel.edu.br/empauta/files/2019/08/HobbsShaw.retang.jpg"},
+    { "id": 18, "title": "Kung Fu Panda", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/kungfupanda.jpg?raw=true"},
+    { "id": 19, "title": "Invocação do mal", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/invocacaodomal.jpg?raw=true"}
+  ]
+}

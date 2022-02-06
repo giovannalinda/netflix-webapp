@@ -35,8 +35,7 @@ export const ContentRecommendation = styled.div`
     margin-top: 30px;
 
     :hover {
-      width: 320px;
-      height: 70px;
+      transform: scale(1.1);
     }
   }
 `
