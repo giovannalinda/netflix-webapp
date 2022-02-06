@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import { Movie } from 'types'
+import { Category } from 'types'
 import { Footer } from 'ui/components/Footer'
 import { Header } from 'ui/components/Header'
 import { Recommendation } from 'ui/components/Recommendation'
@@ -10,14 +10,18 @@ import api from 'services/api'
 import * as S from './Home.styled'
 
 export function Home() {
-  const [movies, setMovies] = useState<Movie[]>([])
+  const [categories, setCategories] = useState<Category[]>([])
 
   useEffect(() => {
     api
-      .get<Movie[]>('/movies')
+      .get<Category[]>('/categories')
       .then((response) => {
-        const previewMovies = response.data.slice(0, 30)
-        setMovies(previewMovies)
+        setCategories(
+          response.data.map((category) => ({
+            title: category.title,
+            movies: category.movies.slice(0, 4),
+          })),
+        )
       })
       .catch((err) => {
         console.error('deu erro ' + err)
@@ -29,16 +33,22 @@ export function Home() {
       <Header />
       <Recommendation />
       <S.Container>
-        <h1>Popular on Netflix</h1>
-        <S.MoviesList>
-          {movies.map((movie) => (
-            <li key={movie.id}>
-              <button>
-                <img src={movie.thumbnail} alt={movie.title} />
-              </button>
-            </li>
+        <S.CategoriesList>
+          {categories.map((category) => (
+            <S.CategoryItem key={category.title}>
+              <h1>{category.title}</h1>
+              <S.MoviesList>
+                {category.movies.map((movie) => (
+                  <S.MovieItem key={movie.title}>
+                    <button>
+                      <img src={movie.thumbnail} alt={movie.title} />
+                    </button>
+                  </S.MovieItem>
+                ))}
+              </S.MoviesList>
+            </S.CategoryItem>
           ))}
-        </S.MoviesList>
+        </S.CategoriesList>
       </S.Container>
       <Footer />
     </>

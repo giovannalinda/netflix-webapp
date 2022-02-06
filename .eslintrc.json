@@ -11,10 +11,11 @@
     "standard"
   ],
   "plugins": [
-    "only-warn",
+    "prettier",
     "@typescript-eslint"
   ],
   "rules": {
+    "prettier/prettier": "error",
     "react/react-in-jsx-scope": "off",
     "no-unused-vars": "off",
     "no-use-before-define": "off",

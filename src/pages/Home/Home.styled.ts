@@ -3,30 +3,55 @@ import { theme } from 'config'
 
 export const Container = styled.main`
   transform: translateY(-7rem);
+`
+
+export const CategoriesList = styled.ul`
+  width: 100%;
+`
+
+export const CategoryItem = styled.li`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+
+  & + li {
+    margin-top: 3rem;
+  }
 
   h1 {
     color: ${theme.colors.white};
-    margin-left: 35px;
-    padding-bottom: 10px;
+    margin-left: 4rem;
+    padding-bottom: 1rem;
 
     @media (max-width: 595px) {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 100px;
+      margin-top: 1rem;
       padding-bottom: 3rem;
     }
   }
 `
-
 export const MoviesList = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 265px));
-  text-align: center;
-  justify-content: center;
-  grid-row-gap: 15px;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  margin: 0 4rem;
+  padding-top: 1rem;
+  width: 100%;
 
-  li button {
+  &::-webkit-scrollbar {
+    height: 0;
+  }
+`
+
+export const MovieItem = styled.li`
+  & + li {
+    margin-left: 1.6rem;
+  }
+
+  button {
     border: 0;
     background: transparent;
     transition: 300ms;

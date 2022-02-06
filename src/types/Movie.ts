@@ -1,5 +1,9 @@
 export type Movie = {
-  id: number;
   title: string;
   thumbnail: string;
+}
+
+export type Category = {
+  title: string;
+  movies: Movie[]
 }

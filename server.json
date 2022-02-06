@@ -1,24 +1,58 @@
 {
-  "movies": [
-    { "id": 0, "title": "You", "thumbnail": "https://i0.wp.com/www.ofilmante.com.br/wp-content/uploads/2019/01/you-poster.jpg?fit=1200%2C675&ssl=1"},
-    { "id": 1, "title": "Black Mirror", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/blackmirror.png?raw=true"},
-    { "id": 2, "title": "Sex Education", "thumbnail": "https://www.mercadoerotico.org/wp-content/uploads/2019/01/maxresdefault.jpg"},
-    { "id": 3, "title": "Lúcifer", "thumbnail": "https://superherobrasil.com.br/wp-content/uploads/2020/07/Lucifer-Season-5-1-1.jpg"},
-    { "id": 4, "title": "La casa de papel", "thumbnail": "https://nerdbreak.com.br/wp-content/uploads/2020/04/la-casa-de-papel-4-001.jpg"},
-    { "id": 5, "title": "Jumanji", "thumbnail": "https://occ-0-1722-1723.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABX5jDAo2Vwa_-gA2HzNrPhTuy0qZYpQTEGh3M7gCjEHmVHNOi-rW4z-Ne_UzrsWpwk0TPwRqjOuuVpiPxaKmNyE17VVu.jpg?r=901"},
-    { "id": 6, "title": "Gente grande", "thumbnail": "https://occ-0-1722-1723.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZJ4tOXRrIoJ7YXlTmRIpEscDYwy14tpraKpK-OtXB-Ek9ODiOUIT9pCyCSTkVXpMYnt44hdaipdBkYYXf7K9KRwz_Om.jpg?r=d65"},
-    { "id": 7, "title": "Como se fosse a primeira vez", "thumbnail": "https://i.pinimg.com/originals/50/c9/3a/50c93a7a134e4e31a8751fa58400b2bd.jpg"},
-    { "id": 8, "title": "Alice in borderland", "thumbnail": "https://cdn.gizmostory.com/wp-content/uploads/2021/07/Alice-In-Borderland-Season-2.jpg?strip=all&lossy=1&ssl=1"},
-    { "id": 9, "title": "As branquelas", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/asbranquelas.jpg?raw=true"},
-    { "id": 10, "title": "Your name", "thumbnail": "https://2.bp.blogspot.com/-dJYhUJWXEQg/Wmh1_7Vx0dI/AAAAAAAADUg/YIX_MCq5SN85NQXbeALPdDt97dotI0zrgCLcBGAs/s1600/1578932_Latvian_ShowMasterKeyArt_396ad78a-deff-e611-8175-020165574d09.jpg"},
-    { "id": 11, "title": "Elite", "thumbnail": "https://www.tribernna.com/wp-content/uploads/2018/10/Elite-seizoen-1-1.jpg"},
-    { "id": 12, "title": "Pokémon", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/pokemon.jpg?raw=true"},
-    { "id": 13, "title": "Pixels", "thumbnail": "https://www.netflix-nederland.nl/wp-content/uploads/2019/03/Pixels-Netflix-810x456.jpg"},
-    { "id": 14, "title": "Lupin", "thumbnail": "https://uploads.jovemnerd.com.br/wp-content/uploads/2021/05/lupin-parte-2-poster.jpg"},
-    { "id": 15, "title": "Coraline", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/coraline.jpg?raw=true"},
-    { "id": 16, "title": "It: a coisa", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/itacoisa.jpg?raw=true"},
-    { "id": 17, "title": "Velozes e furiosos", "thumbnail": "https://wp.ufpel.edu.br/empauta/files/2019/08/HobbsShaw.retang.jpg"},
-    { "id": 18, "title": "Kung Fu Panda", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/kungfupanda.jpg?raw=true"},
-    { "id": 19, "title": "Invocação do mal", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/invocacaodomal.jpg?raw=true"}
+  "categories": [
+    {
+      "title": "Popular on netflix",
+      "movies": [
+        { "title": "Alice in borderland", "thumbnail": "https://cdn.gizmostory.com/wp-content/uploads/2021/07/Alice-In-Borderland-Season-2.jpg?strip=all&lossy=1&ssl=1"},
+        { "title": "It: a coisa", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/itacoisa.jpg?raw=true"},
+        { "title": "Lupin", "thumbnail": "https://uploads.jovemnerd.com.br/wp-content/uploads/2021/05/lupin-parte-2-poster.jpg"},
+        { "title": "Elite", "thumbnail": "https://www.tribernna.com/wp-content/uploads/2018/10/Elite-seizoen-1-1.jpg"}
+      ]
+    },
+    {
+      "title": "On high",
+      "movies": [
+        { "title": "La casa de papel", "thumbnail": "https://nerdbreak.com.br/wp-content/uploads/2020/04/la-casa-de-papel-4-001.jpg"},
+        { "title": "Velozes e furiosos", "thumbnail": "https://wp.ufpel.edu.br/empauta/files/2019/08/HobbsShaw.retang.jpg"},
+        { "title": "Invocação do mal", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/invocacaodomal.jpg?raw=true"},
+        { "title": "Como se fosse a primeira vez", "thumbnail": "https://i.pinimg.com/originals/50/c9/3a/50c93a7a134e4e31a8751fa58400b2bd.jpg"}
+      ]
+    },
+    {
+      "title": "Originals",
+      "movies": [
+        { "title": "You", "thumbnail": "https://i0.wp.com/www.ofilmante.com.br/wp-content/uploads/2019/01/you-poster.jpg?fit=1200%2C675&ssl=1"},
+        { "title": "Black Mirror", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/blackmirror.png?raw=true"},
+        { "title": "Sex Education", "thumbnail": "https://www.mercadoerotico.org/wp-content/uploads/2019/01/maxresdefault.jpg"},
+        { "title": "Lúcifer", "thumbnail": "https://superherobrasil.com.br/wp-content/uploads/2020/07/Lucifer-Season-5-1-1.jpg"}
+      ]
+    },
+    {
+      "title": "Animation",
+      "movies": [
+        { "title": "Your name", "thumbnail": "https://2.bp.blogspot.com/-dJYhUJWXEQg/Wmh1_7Vx0dI/AAAAAAAADUg/YIX_MCq5SN85NQXbeALPdDt97dotI0zrgCLcBGAs/s1600/1578932_Latvian_ShowMasterKeyArt_396ad78a-deff-e611-8175-020165574d09.jpg"},
+        { "title": "Pokémon", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/pokemon.jpg?raw=true"},
+        { "title": "Coraline", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/coraline.jpg?raw=true"},
+        { "title": "Kung Fu Panda", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/kungfupanda.jpg?raw=true"}
+      ]
+    },
+    {
+      "title": "Comedy",
+      "movies": [
+        { "title": "Jumanji", "thumbnail": "https://occ-0-1722-1723.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABX5jDAo2Vwa_-gA2HzNrPhTuy0qZYpQTEGh3M7gCjEHmVHNOi-rW4z-Ne_UzrsWpwk0TPwRqjOuuVpiPxaKmNyE17VVu.jpg?r=901"},
+        { "title": "Gente grande", "thumbnail": "https://occ-0-1722-1723.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZJ4tOXRrIoJ7YXlTmRIpEscDYwy14tpraKpK-OtXB-Ek9ODiOUIT9pCyCSTkVXpMYnt44hdaipdBkYYXf7K9KRwz_Om.jpg?r=d65"},
+        { "title": "As branquelas", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/asbranquelas.jpg?raw=true"},
+        { "title": "Pixels", "thumbnail": "https://www.netflix-nederland.nl/wp-content/uploads/2019/03/Pixels-Netflix-810x456.jpg"}
+      ]
+    },
+    {
+      "title": "Series",
+      "movies": [
+        { "title": "You", "thumbnail": "https://i0.wp.com/www.ofilmante.com.br/wp-content/uploads/2019/01/you-poster.jpg?fit=1200%2C675&ssl=1"},
+        { "title": "Black Mirror", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/blackmirror.png?raw=true"},
+        { "title": "Sex Education", "thumbnail": "https://www.mercadoerotico.org/wp-content/uploads/2019/01/maxresdefault.jpg"},
+        { "title": "Lúcifer", "thumbnail": "https://superherobrasil.com.br/wp-content/uploads/2020/07/Lucifer-Season-5-1-1.jpg"}
+      ]
+    }
   ]
 }
