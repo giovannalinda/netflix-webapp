@@ -8,6 +8,7 @@
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
+- [Fake API with json-server](https://github.com/typicode/json-server)
 
 ## Getting Started
 ### Install dependencies:
@@ -35,6 +36,12 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Run fake API
+
+```bash
+yarn json-server --watch --port 3333 server.json
+```
 
 ## Commands
 
