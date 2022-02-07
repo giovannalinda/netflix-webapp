@@ -8,6 +8,7 @@
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
+- [Fake API with json-server](https://github.com/typicode/json-server)
 
 ## Getting Started
 ### Install dependencies:
