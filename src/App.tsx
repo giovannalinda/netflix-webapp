@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import { Home } from 'pages'
-import { HOME } from 'routes'
+import { Home, Series } from 'pages'
+import { HOME, SERIES } from 'routes'
 import { GlobalStyle } from 'ui'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path={HOME} element={<Home />} />
+        <Route path={SERIES} element={<Series />} />
       </Routes>
       <GlobalStyle />
     </BrowserRouter>

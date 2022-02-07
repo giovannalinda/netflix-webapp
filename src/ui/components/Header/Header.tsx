@@ -13,7 +13,7 @@ export function Header() {
             <Link to='/'>Movies</Link>
           </li>
           <li>
-            <Link to='/'>Series</Link>
+            <Link to='/series'>Series</Link>
           </li>
           <li>
             <Link to='/'>About</Link>

@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form'
 import { FiEye } from 'react-icons/fi'
 import { useNavigate } from 'react-router-dom'
 
-import { TextField } from 'ui/TextField'
+import { TextField } from '../TextField'
 
 import * as S from './Form.styled'
 
@@ -31,7 +31,7 @@ export function Form() {
     }
     reset()
 
-    navigate('/', { replace: true })
+    navigate('/series', { replace: true })
 
     console.log(submit)
   }

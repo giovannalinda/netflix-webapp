@@ -37,7 +37,7 @@ export const Password = styled.div`
     width: 30px;
 
     svg {
-      color: ${theme.colors.white};
+      color: ${theme.colors.neutral[300]};
       margin: -7px 0 0 -50px;
       position: relative;
     }
