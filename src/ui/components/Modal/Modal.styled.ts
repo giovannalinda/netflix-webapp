@@ -12,11 +12,16 @@ export const Modal = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  h1 {
+    text-align: center;
+    padding: 10px;
+  }
 `
 
 export const Container = styled.div`
   background: ${theme.colors.black};
-  width: 70%;
+  width: 450px;
   color: ${theme.colors.white};
   min-height: 65%;
   border-radius: 5px;
