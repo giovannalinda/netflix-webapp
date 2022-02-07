@@ -4,7 +4,7 @@ import { Home } from 'pages'
 import { HOME } from 'routes'
 import { GlobalStyle } from 'ui'
 
-function App () {
+function App() {
   return (
     <BrowserRouter>
       <Routes>

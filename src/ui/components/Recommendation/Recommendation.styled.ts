@@ -21,12 +21,12 @@ export const Container = styled.div`
   img {
     width: 90rem;
     height: 30.5rem;
-    transition: 0.80s;
+    transition: 0.8s;
 
     @media (max-width: 920px) {
       width: 440px;
       height: 350px;
-      transition: 0.80s;
+      transition: 0.8s;
     }
   }
 
@@ -34,7 +34,7 @@ export const Container = styled.div`
     font-size: 16px;
     color: ${theme.colors.white};
     max-width: 850px;
-    padding: 3.0rem 3.0rem 0 0;
+    padding: 3rem 3rem 0 0;
   }
 
   button {
