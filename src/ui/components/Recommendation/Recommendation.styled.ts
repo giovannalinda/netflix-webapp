@@ -25,8 +25,9 @@ export const Container = styled.div`
 
     @media (max-width: 920px) {
       width: 440px;
-      height: 350px;
+      height: 390px;
       transition: 0.8s;
+      transform: translateY(-5rem);
     }
   }
 
@@ -35,6 +36,11 @@ export const Container = styled.div`
     color: ${theme.colors.white};
     max-width: 850px;
     padding: 3rem 3rem 0 0;
+
+    @media (max-width: 920px) {
+      transform: translateY(-5rem);
+      min-width: 450px;
+    }
   }
 
   button {
@@ -47,8 +53,8 @@ export const Container = styled.div`
     transition: 300ms;
     margin-top: 3rem;
 
-    :hover {
-      transform: scale(1.05);
+    @media (max-width: 920px) {
+      transform: translateY(-6rem);
     }
   }
 `

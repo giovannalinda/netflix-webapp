@@ -1,8 +1,9 @@
-import * as S from './Modal.styled'
 import { ReactNode } from 'react'
 import ReactDOM from 'react-dom'
 
 import { FiX } from 'react-icons/fi'
+
+import * as S from './Modal.styled'
 
 type Props = {
   isOpen?: boolean

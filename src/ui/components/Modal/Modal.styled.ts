@@ -24,5 +24,6 @@ export const Container = styled.div`
   button {
     color: ${theme.colors.white};
     border: none;
+    padding: 20px;
   }
 `

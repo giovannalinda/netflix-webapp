@@ -28,7 +28,7 @@ export const CategoryItem = styled.li`
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 1rem;
+      margin-top: 9rem;
       padding-bottom: 3rem;
     }
   }

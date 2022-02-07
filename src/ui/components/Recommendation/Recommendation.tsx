@@ -1,9 +1,11 @@
 import { useState } from 'react'
 
+import Modal from '../Modal/Modal'
+
 import { logo } from 'assets'
 
 import * as S from './Recommendation.styled'
-import Modal from '../Modal/Modal'
+
 export function Recommendation() {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -23,9 +25,7 @@ export function Recommendation() {
         <button onClick={() => setIsOpen(true)} type='button'>
           Watch
         </button>
-        <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
-          teste
-        </Modal>
+        <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}></Modal>
       </S.Container>
     </S.Wrapper>
   )
