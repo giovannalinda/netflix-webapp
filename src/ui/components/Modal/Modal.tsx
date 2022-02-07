@@ -1,5 +1,7 @@
 import * as S from './Modal.styled'
 import { ReactNode } from 'react'
+import ReactDOM from 'react-dom'
+
 import { FiX } from 'react-icons/fi'
 
 type Props = {
@@ -13,7 +15,7 @@ const Modal = ({ onClose, children, isOpen = false }: Props) => {
     return null
   }
 
-  return (
+  return ReactDOM.createPortal(
     <S.Modal>
       <S.Container>
         <button onClick={onClose} style={{ background: 'none' }}>
@@ -21,7 +23,8 @@ const Modal = ({ onClose, children, isOpen = false }: Props) => {
         </button>
         {children}
       </S.Container>
-    </S.Modal>
+    </S.Modal>,
+    document.body,
   )
 }
 
