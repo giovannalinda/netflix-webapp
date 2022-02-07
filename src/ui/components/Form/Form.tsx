@@ -61,6 +61,7 @@ export function Form() {
             required: true,
           })}
         />
+
         <S.Password>
           <TextField
             label='Password'
@@ -75,6 +76,7 @@ export function Form() {
             <FiEye size={17} />
           </button>
         </S.Password>
+
         <button type='submit'>Go</button>
       </S.Form>
     </S.Container>
