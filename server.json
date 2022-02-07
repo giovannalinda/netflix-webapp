@@ -13,9 +13,9 @@
       "title": "On high",
       "movies": [
         { "title": "La casa de papel", "thumbnail": "https://nerdbreak.com.br/wp-content/uploads/2020/04/la-casa-de-papel-4-001.jpg"},
+        { "title": "Spiderman: No way home", "thumbnail": "https://sanatoriogeek.com/wp-content/uploads/2021/04/homemaranhanowayhome_1.jpg"},
         { "title": "Velozes e furiosos", "thumbnail": "https://wp.ufpel.edu.br/empauta/files/2019/08/HobbsShaw.retang.jpg"},
-        { "title": "Invocação do mal", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/invocacaodomal.jpg?raw=true"},
-        { "title": "Como se fosse a primeira vez", "thumbnail": "https://i.pinimg.com/originals/50/c9/3a/50c93a7a134e4e31a8751fa58400b2bd.jpg"}
+        { "title": "Invocação do mal", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/invocacaodomal.jpg?raw=true"}
       ]
     },
     {
@@ -31,9 +31,9 @@
       "title": "Animation",
       "movies": [
         { "title": "Your name", "thumbnail": "https://2.bp.blogspot.com/-dJYhUJWXEQg/Wmh1_7Vx0dI/AAAAAAAADUg/YIX_MCq5SN85NQXbeALPdDt97dotI0zrgCLcBGAs/s1600/1578932_Latvian_ShowMasterKeyArt_396ad78a-deff-e611-8175-020165574d09.jpg"},
-        { "title": "Pokémon", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/pokemon.jpg?raw=true"},
+        { "title": "Pokémon", "thumbnail": "https://mestrepokemon.com/wp-content/uploads/2019/11/Curiosidade-Pokemon-Qual-o-primeiro-Pokemon-a-ser-criado.jpg"},
         { "title": "Coraline", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/coraline.jpg?raw=true"},
-        { "title": "Kung Fu Panda", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/kungfupanda.jpg?raw=true"}
+        { "title": "Kung Fu Panda", "thumbnail": "https://clarovideocdn3.clarovideo.net/PELICULAS/KUNGFUPANDA3/EXPORTACION_WEB/PT/KUNGFUPANDA3WHORIZONTAL.jpg?size=675x380"}
       ]
     },
     {
@@ -41,7 +41,7 @@
       "movies": [
         { "title": "Jumanji", "thumbnail": "https://occ-0-1722-1723.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABX5jDAo2Vwa_-gA2HzNrPhTuy0qZYpQTEGh3M7gCjEHmVHNOi-rW4z-Ne_UzrsWpwk0TPwRqjOuuVpiPxaKmNyE17VVu.jpg?r=901"},
         { "title": "Gente grande", "thumbnail": "https://occ-0-1722-1723.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZJ4tOXRrIoJ7YXlTmRIpEscDYwy14tpraKpK-OtXB-Ek9ODiOUIT9pCyCSTkVXpMYnt44hdaipdBkYYXf7K9KRwz_Om.jpg?r=d65"},
-        { "title": "As branquelas", "thumbnail": "https://github.com/giovannalinda/clone-netflix/blob/main/images/asbranquelas.jpg?raw=true"},
+        { "title": "Como se fosse a primeira vez", "thumbnail": "https://i.pinimg.com/originals/50/c9/3a/50c93a7a134e4e31a8751fa58400b2bd.jpg"},
         { "title": "Pixels", "thumbnail": "https://www.netflix-nederland.nl/wp-content/uploads/2019/03/Pixels-Netflix-810x456.jpg"}
       ]
     },
